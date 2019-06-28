@@ -1,0 +1,87 @@
+.infoContainer {
+    display: grid;
+    grid-gap: auto;
+    grid-template-columns: 33% 33% 33%;
+    text-align: center;
+}
+
+.infoBox {
+    background-color: lightgray;
+    color: white;
+    padding: 20px;
+}
+
+#resetButton {
+    background-color: blue;
+}
+
+.gameContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px;
+    background-color: azure;
+    border: 5px solid blue;
+    text-align: center;
+}
+
+/* this is the styling added when player, computer plays or a win happens*/
+.gameContainer > .blue {
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    font-size: 48px;
+}
+
+.gameContainer > .red {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    font-size: 48px;
+}
+
+.gameContainer > .gray {
+    background-color: gray;
+    color: purple;
+    padding: 24px;
+    font-size: 24px;
+}
+
+/* this is the regular styling for grid cells */
+.gameContainer > div {
+    border: 2px solid blue;
+    border-radius: 25px;
+    background-color: lightgray;
+    padding: 35px;
+    color: green;
+}
+
+.center {
+    text-align: center;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blackText {
+    color: black;
+    font-size: 18px;
+}
+
+.displayNone {
+    display: none;
+}
+
+.yellowBig {
+    background-color: yellow;
+    font-size: 36px;
+}
+
+.redBig {
+    background-color: red;
+    font-size: 36px;
+}
+
+.unclickable {
+    pointer-events: none;
+}
